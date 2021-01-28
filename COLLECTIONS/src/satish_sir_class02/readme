@@ -1,0 +1,130 @@
+List - LinkedList
+- it allows duplicates elements
+- underlined DS is doubly LinkedList
+- it allows null values
+- insertion order is preserved.
+- sorted - NO 
+
+adding 10, 20, 40, 15, 25
+insertion order - 10, 20, 40, 15, 25
+sorting - read - 10, 15, 20, 25, 40
+
+- each element is doubly linked to each other
+- it dose not uses array to store elements
+- is uses list of nodes to store values
+
+methods
+- addFirst()
+- addLast()
+- removeFirst()
+- removeLast()
+- getFirst()
+- getLast()
+- get(index)
+- add(Object) - adds the value at the end of the list
+- remove() - removes the values from the front
+
+ArrayList							LinkedList
+array based							doubly LinkedList
+stores in continuous memory			does not stores in continuous memory
+adding, reading is easier			add, read is costlier
+adding in middle is costlier		adding in middle is easier
+(because of shifting the rest		
+of the array)
+
+
+
+Set - interface
+----
+interface Set implements Collection
+{
+	
+}
+- it cases about uniqueness
+- no duplicates are allowed
+
+Set - implementations
+HashSet, LinkedHashSet, TreeSet
+
+HashSet
+--------
+class HashSet implements Set
+{
+	
+}
+
+- is is not using array to store
+- it is not index based
+- underlying data structure is HashTable
+- it does not allow duplicates
+- only one time null values
+- insertion order - not preserved
+- Sorting - NOT
+
+methods
+- add(Object)
+- get(index) - not there
+- remove(Object)
+- iterator() - for reading the data
+- size()
+- isEmpty()
+- contains()
+
+hashCode - default implement
+integer value, generated based on the local address where the values is saved
+
+
+
+LinkedHashSet
+---------------
+- it does not allow duplicates
+- only one time null values
+- insertion order - preserved
+- underlying data structure Doubly LinkedList and HashTable
+- Sorting - NOT
+- it is not a index based collection
+
+- when you try to add any object, the add method internally calls 
+equals() method of the element type(String, student)
+to check whether this object is already present in the 
+set (checking for uniqueness)
+
+
+TreeSet
+--------
+
+- it dose not allow duplicates
+- insertion order - NOT PRESERVED
+- SORTING - yes it follows the default natural sorting
+- null values - no null is allowed
+- underlying DS is Balanced Tree
+- it implements SortedSet and NavigableSet interfaces along set interface
+
+add - 1 5 3 4 6 7 2
+read - 1 2 3 4 5 6 7
+
+first() - returns the first element from the set
+last() - returns the last element from the set
+pollFirst() - 
+pollLast()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
