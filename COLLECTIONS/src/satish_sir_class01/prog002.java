@@ -6,7 +6,7 @@ public class prog002
 {
 	public static void main(String[] args) 
 	{	
-		ArrayList list = new ArrayList<>();
+		ArrayList<Object> list = new ArrayList<>();
 		
 		
 //		ArrayList<Object> list2 = new ArrayList<>();
