@@ -28,8 +28,6 @@ public class PrintSecondLargest
 		list.add(9);
 		*/
 		
-		
-		
 		System.out.println("simple list");
 		System.out.println(list);
 		

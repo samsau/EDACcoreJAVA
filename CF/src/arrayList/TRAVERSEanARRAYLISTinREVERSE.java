@@ -19,7 +19,7 @@ public class TRAVERSEanARRAYLISTinREVERSE
 			ll.add(sc.nextInt());
 		
 		traverseReverse(ll);
-		
+		sc.close();
 	}
 	
 }
