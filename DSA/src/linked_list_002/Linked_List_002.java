@@ -4,8 +4,8 @@ public class Linked_List_002
 {
 	int count = 0;
 	Node_002 head;
-	private Node_002 temp2;
-	private Node_002 temp;
+//	private Node_002 temp2;
+//	private Node_002 temp;
 	void show()
 	{
 		Node_002 temp = head;

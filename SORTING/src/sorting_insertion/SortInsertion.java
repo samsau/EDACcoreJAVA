@@ -71,10 +71,30 @@ public class SortInsertion
 	{
 		int[] a = {60, 30, 40, 20, 10, 90, 50};
 		int len = a.length;
+		System.out.println("printing original array : ");
 		printFun(a, len);
 		System.out.println();
 		insertionSort(a, len);
 		System.out.println();
+		System.out.println("printing sorted array : ");
 		printFun(a, len);
 	}
 }
+
+
+/*
+
+printing original array : 
+60 30 40 20 10 90 50 
+
+30 \\60 40 20 10 90 50 
+30 40 \\60 20 10 90 50 
+20 30 40 \\60 10 90 50 
+10 20 30 40 \\60 90 50 
+10 20 30 40 60 \\90 50 
+10 20 30 40 50 60 \\90 
+
+printing sorted array : 
+10 20 30 40 50 60 90 
+
+*/
