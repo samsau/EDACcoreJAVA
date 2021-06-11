@@ -30,5 +30,6 @@ public class B extends A{
 		b2.hello();
 		float z = (1/7);
 		System.out.println((double)22/7);
+		
 	}
 }

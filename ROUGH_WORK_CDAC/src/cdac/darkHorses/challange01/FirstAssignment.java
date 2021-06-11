@@ -1,6 +1,7 @@
 package cdac.darkHorses.challange01;
 
 import java.util.Collections;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -142,5 +143,7 @@ public class FirstAssignment {
 //		fa.ques13();
 		fa.ques14();
 //		System.out.println(args);
+		LinkedList<Integer> l = new LinkedList<Integer>();
+		HashMap<Integer, LinkedList<Boolean>> hm = new HashMap<Integer, LinkedList<Boolean>>();
 	}
 }

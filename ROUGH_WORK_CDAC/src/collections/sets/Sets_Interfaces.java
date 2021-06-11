@@ -3,11 +3,13 @@ package collections.sets;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 import java.util.TreeSet;
 import java.util.Vector;
 
@@ -71,7 +73,15 @@ public class Sets_Interfaces {
 		}
 		System.out.println(a);
 	}
-	
+	public void mapfun() {
+		Map<Integer, Integer> m = new HashMap<Integer, Integer>();
+		m.put(1, 2);
+		m.put(2, 4);
+		m.put(null, 5);
+		System.out.println(m.put(null, 7));
+		System.out.println(m);
+		
+	}
 //	print 3rd largest
 	public void list4() {
 		ArrayList<Integer> l = new ArrayList<Integer>();
@@ -184,12 +194,13 @@ public class Sets_Interfaces {
 		t.add("tanu");
 		t.add("manoj");
 		t.add("milan");
+		t.add("aditya");
 		System.out.println(t);
 	}
 
 	public static void main(String[] args) {
 		Sets_Interfaces ss = new Sets_Interfaces();
-		ss.list01();
+//		ss.list01();
 //		ss.list1();
 //		ss.list2();
 //		ss.list3();
@@ -200,9 +211,8 @@ public class Sets_Interfaces {
 //		ss.set3();
 //		ss.set4();
 //		ss.set5();
+		ss.mapfun();
 //		System.out.println(ss);
-		
-		
 		
 	}
 }
